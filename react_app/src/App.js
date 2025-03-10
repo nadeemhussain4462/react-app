@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useState} from "react";
 import Message from "./Message";
 import Header from "./Header";
 import Footer from "./Footer";
+import EventButton from "./components/EventButton";
+import ChangeText from "./components/ChangeText";
 
 function App() {
   return (
@@ -15,8 +17,11 @@ function App() {
       <Footer text="React Learning Hub 🚀" />
       <h2>Made by Nadeem Hussain</h2>
       <Footer text="All Rights Reserved 2025" />
+      <EventButton />
+      <ChangeText />
     </div>
   );
 }
 
 export default App;
+
