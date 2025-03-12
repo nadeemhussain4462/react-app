@@ -6,6 +6,8 @@ import EventButton from "./components/EventButton";
 import ChangeText from "./components/ChangeText";
 import Counter from "./components/counter";
 import ToggleButton from "./components/ToggleMode";
+import LuxuryToggleMode from "./components/LuxuryToggleMode";
+import ColorChanger from "./components/colorChanger";
 function App() {
   return (
     <div>
@@ -21,7 +23,9 @@ function App() {
       {/* <EventButton />
       <ChangeText /> */}
       {/* <Counter /> */}
-      <ToggleButton />
+      {/* <ToggleButton /> */}
+      {/* <LuxuryToggleMode /> */}
+      <ColorChanger />
     </div>
   );
 }
